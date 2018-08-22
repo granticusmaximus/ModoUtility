@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ModoBusiness\ModoBusiness.csproj" />
+    <Content Include="ModoUtility\src\pages\login.jsx" />
+    <Content Include="ModoUtility\src\components\navMenu.jsx" />
+    <Content Include="ModoUtility\src\pages\lostPass.jsx" />
+    <Content Include="ModoUtility\src\components\ToDoList.jsx" />
+    <Content Include="ModoUtility\src\pages\todo.jsx" />
+    <Content Include="ModoUtility\src\pages\user\account.jsx" />
+    <Content Include="ModoUtility\src\components\Nav.js" />
+    <Content Include="ModoUtility\src\components\ToDoItems.jsx" />
+    <Content Include="ModoUtility\src\App.css" />
+    <Content Include="ModoUtility\src\pages\user\friends.jsx" />
+    <Content Include="ModoUtility\src\constants.js" />
+    <Content Include="ModoUtility\src\actions\auth.js" />
+    <Content Include="ModoUtility\src\middleware\api.js" />
+    <Content Include="ModoUtility\src\actions\customers.js" />
+    <Content Include="ModoUtility\src\actions\customer.js" />
+    <Content Include="ModoUtility\src\actions\order.js" />
+    <Content Include="ModoUtility\src\actions\product.js" />
+    <Content Include="ModoUtility\src\components\Header.jsx" />
+    <Content Include="ModoUtility\src\components\LeftDrawer.jsx" />
+    <Content Include="ModoUtility\src\styles.css" />
+    <Content Include="ModoUtility\src\styles.jsx" />
+    <Content Include="ModoUtility\src\components\PageBase.jsx" />
+    <Content Include="ModoUtility\src\components\PageBase.spec.jsx" />
+    <Content Include="ModoUtility\src\components\Pagination.jsx" />
+    <Content Include="ModoUtility\src\components\dashboard\BrowserUsage.jsx" />
+    <Content Include="ModoUtility\src\components\dashboard\InfoBox.jsx" />
+    <Content Include="ModoUtility\src\components\dashboard\InfoBox.spec.jsx" />
+    <Content Include="ModoUtility\src\components\dashboard\LineBarChart.jsx" />
+    <Content Include="ModoUtility\src\components\dashboard\MonthlySales.jsx" />
+    <Content Include="ModoUtility\src\components\dashboard\RecentlyProducts.jsx" />
+    <Content Include="ModoUtility\src\components\dashboard\NewOrders.jsx" />
+    <Content Include="ModoUtility\src\webpack-public-path.js" />
+    <Content Include="ModoUtility\src\containers\AboutPage.jsx" />
+    <Content Include="ModoUtility\src\containers\App.jsx" />
+    <Content Include="ModoUtility\src\containers\CustomerFormPage.jsx" />
+    <Content Include="ModoUtility\src\containers\CustomerListPage.jsx" />
+    <Content Include="ModoUtility\src\containers\DashboardPage.jsx" />
+    <Content Include="ModoUtility\src\containers\FormPage.jsx" />
+    <Content Include="ModoUtility\src\containers\NotFoundPage.jsx" />
+    <Content Include="ModoUtility\src\containers\OrderFormPage.jsx" />
+    <Content Include="ModoUtility\src\reducers\auth.jsx" />
+    <Content Include="ModoUtility\src\reducers\customer.jsx" />
+    <Content Include="ModoUtility\src\reducers\index.jsx" />
+    <Content Include="ModoUtility\src\reducers\order.jsx" />
+    <Content Include="ModoUtility\src\reducers\product.jsx" />
+    <Content Include="ModoUtility\src\data.jsx" />
+    <Content Include="ModoUtility\src\theme-default.jsx" />
+    <Content Include="ModoUtility\src\containers\LoginPage.js" />
+  </ItemGroup>
+</Project>
